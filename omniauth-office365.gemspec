@@ -4,10 +4,10 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'omniauth/office365/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "omniauth-office365"
+  spec.name          = "omniauth-office365-v2.0"
   spec.version       = Omniauth::Office365::VERSION
-  spec.authors       = ["Josef Šimánek"]
-  spec.email         = ["josef.simanek@gmail.com"]
+  spec.authors       = ["James Chheng"]
+  spec.email         = [""]
   spec.summary       = %q{omniauth provider for Office365}
   spec.description   = %q{omniauth provider for new Office365 API}
   spec.homepage      = "https://github.com/simi/omniauth-office365"

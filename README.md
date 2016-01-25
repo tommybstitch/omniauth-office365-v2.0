@@ -1,13 +1,13 @@
 # Omniauth::Office365 [![Build Status](https://travis-ci.org/simi/omniauth-office365.svg?branch=master)](https://travis-ci.org/simi/omniauth-office365)
 
-Office365 OAuth2 Strategy for OmniAuth.
+Office365 OAuth2 Strategy for OmniAuth. This gem is for anyone looking to use Office 365's v2.0 api oauth2.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-office365'
+gem 'omniauth-office365-v2.0'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install omniauth-office365
+    $ gem install omniauth-office365-v2.0
 
 ## Usage
 

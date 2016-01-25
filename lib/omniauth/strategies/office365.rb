@@ -6,9 +6,9 @@ module OmniAuth
       option :name, :office365
 
       option :client_options, {
-        site:          'https://outlook.office365.com/',
-        token_url:     'https://login.windows.net/common/oauth2/token',
-        authorize_url: 'https://login.windows.net/common/oauth2/authorize'
+        site:          'https://login.microsoftonline.com/',
+        token_url:     'https://login.microsoftonline.com/common/oauth2/v2.0/token',
+        authorize_url: 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize'
       }
 
       option :authorize_params, {
